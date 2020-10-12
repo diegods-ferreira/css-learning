@@ -21,7 +21,7 @@
 
   <tbody>
     <tr>
-      <td><a href="./figures/bus.html">Bus</a></td>
+      <td><a href="./figures/bus">Bus</a></td>
       <td>This is a figure of bus that I made with only <code>divs</code> and CSS</td>
       <td><img src="https://imgur.com/KhHVpjD.png" width="100"/></td>
     </tr>
