@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Functional Calculator</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="calculator-container">
+      <div class="calculator-container-glow">
+        <div class="calculator-content">
+          <div class="calculator-notch"></div>
+          <div class="calculator-screen-container">
+            <div class="calculator-screen">
+              <div class="calculator-screen-glow" id="calculator-screen"></div>
+            </div>
+            <div class="calculator-underscreen-detail"></div>
+          </div>
+          <div class="calculator-buttons-container" id="buttons-container">
+            <button class="button orange-button" style="grid-area: btn-ce;" id="button-ce" data-target="ce">
+              <div class="button-glow bigger-horizontal-button">
+                CE
+              </div>
+            </button>
+            <button class="button gray-button" style="grid-area: btn-sqrt;" id="button-sqrt" data-target="sqrt">
+                &Sqrt;
+            </button>
+            <button class="button gray-button" style="grid-area: btn-divide;" id="button-divide" data-target="/">
+                &divide;
+            </button>
+            <button class="button" style="grid-area: btn-7;" id="button-7" data-target="7">
+                7
+            </button>
+            <button class="button" style="grid-area: btn-8;" id="button-8" data-target="8">
+                8
+            </button>
+            <button class="button" style="grid-area: btn-9;" id="button-9" data-target="9">
+                9
+            </button>
+            <button class="button gray-button" style="grid-area: btn-times;" id="button-times" data-target="*">
+                &times;
+            </button>
+            <button class="button" style="grid-area: btn-4;" id="button-4" data-target="4">
+                4
+            </button>
+            <button class="button" style="grid-area: btn-5;" id="button-5" data-target="5">
+                5
+            </button>
+            <button class="button" style="grid-area: btn-6;" id="button-6" data-target="6">
+                6
+            </button>
+            <button class="button gray-button" style="grid-area: btn-minus;" id="button-minus" data-target="-">
+                &minus;
+            </button>
+            <button class="button" style="grid-area: btn-1;" id="button-1" data-target="1">
+                1
+            </button>
+            <button class="button" style="grid-area: btn-2;" id="button-2" data-target="2">
+                2
+            </button>
+            <button class="button" style="grid-area: btn-3;" id="button-3" data-target="3">
+                3
+            </button>
+            <button class="button red-button" style="grid-area: btn-plus;" id="button-plus" data-target="+">
+                +
+            </button>
+            <button class="button" style="grid-area: btn-0;" id="button-0" data-target="0">
+                0
+            </button>
+            <button class="button" style="grid-area: btn-dot;" id="button-dot" data-target=".">
+                .
+            </button>
+            <button class="button" style="grid-area: btn-equal;" id="button-equal" data-target="equal">
+                =
+            </button>
+          </div>
+          <div class="calculator-bottom-detail"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./scripts.js"></script>
+</body>
+</html>
